@@ -44,3 +44,10 @@ issue with pasting into JPEG format from a GIF source.
 ### Error Handling
 
 Minimal :'(
+
+### Tip
+Create a file ocr.sh under path
+
+#/bin/bash
+pngpaste tmp.png
+tesseract tmp.png - -l eng
